@@ -1,4 +1,4 @@
-const { Site, Board, Article, Comment } = require('.');
+const { Site, Board, Article, Comment } = require('./index');
 
 describe('Site 요구사항 테스트', () => {
     test('Site는 n개 이상 생성 할 수 있다.', () => {
